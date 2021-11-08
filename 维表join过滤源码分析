@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T07:46:32.781Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.5.9" etag="yqfja5ZqroXU21RQm-br" type="github"><diagram id="3ZQCBW9KDXrk3-4h5MPi">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-08T08:59:29.893Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="KEvZ-TGSDAcbdEhdojd0" version="15.5.9" type="github">
+  <diagram id="3ZQCBW9KDXrk3-4h5MPi" name="Page-1">
+    <mxGraphModel dx="1468" dy="873" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QO2pnHSJs6tqn9OijMAe-3" value="&lt;div&gt;SELECT&amp;nbsp; *&lt;/div&gt;&lt;div&gt;&amp;nbsp;FROM `k` AS `o`&lt;/div&gt;&lt;div&gt;&amp;nbsp;LEFT JOIN `d` FOR SYSTEM_TIME AS OF&lt;/div&gt;&lt;div&gt;&amp;nbsp;`o`.`p_time` AS `r` ON `r`.`id` = `o`.`id`&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="-210" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QO2pnHSJs6tqn9OijMAe-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QO2pnHSJs6tqn9OijMAe-10" target="QO2pnHSJs6tqn9OijMAe-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QO2pnHSJs6tqn9OijMAe-10" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;JdbcDynamicTableFactory&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-135" y="-70" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QO2pnHSJs6tqn9OijMAe-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QO2pnHSJs6tqn9OijMAe-12" target="QO2pnHSJs6tqn9OijMAe-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QO2pnHSJs6tqn9OijMAe-12" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;JdbcDynamicTableSource&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-70" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QO2pnHSJs6tqn9OijMAe-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QO2pnHSJs6tqn9OijMAe-14" target="QO2pnHSJs6tqn9OijMAe-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QO2pnHSJs6tqn9OijMAe-14" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;getLookupRuntimeProvider&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="36" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QO2pnHSJs6tqn9OijMAe-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QO2pnHSJs6tqn9OijMAe-16" target="QO2pnHSJs6tqn9OijMAe-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QO2pnHSJs6tqn9OijMAe-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QO2pnHSJs6tqn9OijMAe-16" target="QO2pnHSJs6tqn9OijMAe-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QO2pnHSJs6tqn9OijMAe-16" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;JdbcRowDataLookupFunction&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="160" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QO2pnHSJs6tqn9OijMAe-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QO2pnHSJs6tqn9OijMAe-18" target="QO2pnHSJs6tqn9OijMAe-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QO2pnHSJs6tqn9OijMAe-18" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;open&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="123" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QO2pnHSJs6tqn9OijMAe-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QO2pnHSJs6tqn9OijMAe-20" target="QO2pnHSJs6tqn9OijMAe-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QO2pnHSJs6tqn9OijMAe-20" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;eval&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="123" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QO2pnHSJs6tqn9OijMAe-22" value="运行前准备&lt;br&gt;1、&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;establishConnectionAndStatement&lt;br&gt;2、set cache&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-135" y="125" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QO2pnHSJs6tqn9OijMAe-27" value="&lt;font face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 13.0667px ; background-color: rgb(255 , 255 , 255)&quot;&gt;运行时逻辑:kafka关联字段条件查询*&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-135" y="205" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QO2pnHSJs6tqn9OijMAe-30" value="&lt;div&gt;CREATE TABLE `d` (&lt;span&gt;&amp;nbsp; `user_id`&amp;nbsp; INTEGER ,&lt;/span&gt;&lt;span&gt;&amp;nbsp;`age`&amp;nbsp; INTEGER&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;nbsp;) WITH (...&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&#39;source.filter.data&#39; = &#39;age&amp;gt;3&#39;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;);&lt;/span&gt;&lt;span&gt;`&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="-310" width="230" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
