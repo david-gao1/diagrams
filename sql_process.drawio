@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-27T08:55:20.417Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="z3-CXHzrVX5qbfVV9Az_" version="22.1.12" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-27T09:00:09.665Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qhF77EbXVJVegPg3lKFO" version="22.1.12" type="github">
   <diagram name="第 1 页" id="oQV05CseU3vHgIYuu8mG">
     <mxGraphModel dx="764" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -7,29 +7,41 @@
         <mxCell id="fGTM9aako0Aeo7FWCWRA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fGTM9aako0Aeo7FWCWRA-1" target="fGTM9aako0Aeo7FWCWRA-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fGTM9aako0Aeo7FWCWRA-1" value="From" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fGTM9aako0Aeo7FWCWRA-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fGTM9aako0Aeo7FWCWRA-1" target="fGTM9aako0Aeo7FWCWRA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGTM9aako0Aeo7FWCWRA-1" value="From" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="180" y="210" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fGTM9aako0Aeo7FWCWRA-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fGTM9aako0Aeo7FWCWRA-2" target="fGTM9aako0Aeo7FWCWRA-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fGTM9aako0Aeo7FWCWRA-2" value="WHERE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fGTM9aako0Aeo7FWCWRA-2" value="WHERE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="290" y="210" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fGTM9aako0Aeo7FWCWRA-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fGTM9aako0Aeo7FWCWRA-4" target="fGTM9aako0Aeo7FWCWRA-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fGTM9aako0Aeo7FWCWRA-4" value="GROUP BY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fGTM9aako0Aeo7FWCWRA-4" value="GROUP BY" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="400" y="210" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fGTM9aako0Aeo7FWCWRA-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fGTM9aako0Aeo7FWCWRA-6" target="fGTM9aako0Aeo7FWCWRA-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fGTM9aako0Aeo7FWCWRA-6" value="HAVING" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fGTM9aako0Aeo7FWCWRA-6" value="HAVING" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="510" y="210" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fGTM9aako0Aeo7FWCWRA-8" value="SELECT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fGTM9aako0Aeo7FWCWRA-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fGTM9aako0Aeo7FWCWRA-8" target="fGTM9aako0Aeo7FWCWRA-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGTM9aako0Aeo7FWCWRA-8" value="SELECT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="620" y="210" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fGTM9aako0Aeo7FWCWRA-11" value="1. 笛卡尔积&lt;br&gt;2. on&lt;br&gt;3. 添加外部行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="175" y="300" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fGTM9aako0Aeo7FWCWRA-12" value="1.计算表达式&lt;br&gt;2. DISTINCT&lt;br&gt;3.&amp;nbsp;TOP&lt;br&gt;4.&amp;nbsp;ORDER BY" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="615" y="300" width="100" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
