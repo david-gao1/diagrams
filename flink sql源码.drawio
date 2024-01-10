@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T03:15:14.338Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="fUUxT9J9J7yqUeYeNRJ5" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-10T03:17:29.904Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="QmElOFKzRb217KYouULw" version="22.1.17" type="github">
   <diagram name="第 1 页" id="nlLDegoZxrFvPFiNcK8O">
     <mxGraphModel dx="317" dy="399" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -34,8 +34,8 @@
         <mxCell id="tADbp0Cch4AszEm7FbJm-329" value="paser.parse(sqlString)&lt;br&gt;-&amp;gt;sqnode-&amp;gt;operation" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="710" y="310" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tADbp0Cch4AszEm7FbJm-332" value="1. 通过calicite解析器生成AST即sqlnode&lt;br&gt;2. 校验sqlnode&lt;br&gt;3. 生成relroot封装成不同的operation" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="704" y="235" width="230" height="60" as="geometry" />
+        <mxCell id="tADbp0Cch4AszEm7FbJm-332" value="1. 通过calicite解析器生成AST即sqlnode&lt;br&gt;2. 校验sqlnode&lt;br&gt;3. 生成relroot封装成不同的&lt;br&gt;operation（封装的算子细节）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="704" y="230" width="229" height="70" as="geometry" />
         </mxCell>
         <mxCell id="tADbp0Cch4AszEm7FbJm-337" value="1. parser.parse(sqlString)&amp;nbsp; &amp;nbsp;-&amp;gt;sqlnode" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="920" y="285" width="150" height="40" as="geometry" />
