@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T15:20:19.205Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="2NutSIHm3essec9Q1yz3" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-10T15:41:18.736Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="chvADdbDI1MAa394YpHg" version="22.1.17" type="github">
   <diagram name="第 1 页" id="nlLDegoZxrFvPFiNcK8O">
-    <mxGraphModel dx="716" dy="620" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="878" dy="593" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -154,7 +154,7 @@
         <mxCell id="tADbp0Cch4AszEm7FbJm-390" value="5.1. translateToExecNodeGraph&lt;br&gt;(optimizedRelNodes)-&amp;gt;execGraph" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="1152" y="598" width="229" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tADbp0Cch4AszEm7FbJm-406" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="tADbp0Cch4AszEm7FbJm-391" target="tADbp0Cch4AszEm7FbJm-405">
+        <mxCell id="tADbp0Cch4AszEm7FbJm-415" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="tADbp0Cch4AszEm7FbJm-391" target="tADbp0Cch4AszEm7FbJm-414">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tADbp0Cch4AszEm7FbJm-391" value="5.2.translateToPlan(execGraph)-&amp;gt;transformations" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
@@ -175,20 +175,32 @@
         <mxCell id="tADbp0Cch4AszEm7FbJm-400" value="FlinVolcanoProgram—&amp;gt; planner.findBestExp" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="1426" y="561" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tADbp0Cch4AszEm7FbJm-403" value="RBO：基于规则的优化器,实现：HepPlanner，包括：谓词下推、常量折叠、列裁剪" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="1659" y="520" width="459" height="26" as="geometry" />
+        <mxCell id="tADbp0Cch4AszEm7FbJm-403" value="RBO：基于规则的优化器,实现：HepPlanner，&lt;br&gt;包括：谓词下推、常量折叠、列裁剪" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="1659" y="515" width="267" height="41" as="geometry" />
         </mxCell>
         <mxCell id="tADbp0Cch4AszEm7FbJm-404" value="CBO：基于成本代价优化，实现VolcanoPlanner" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="1659" y="564" width="272" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="tADbp0Cch4AszEm7FbJm-405" value="streamExecL&#39;e" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="1431" y="657" width="228" height="40" as="geometry" />
+        <mxCell id="tADbp0Cch4AszEm7FbJm-405" value="&lt;div&gt;&amp;nbsp;inputTransform&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="1637" y="631.5" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tADbp0Cch4AszEm7FbJm-407" value="6. execEnv.executeAsync" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="940" y="546" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tADbp0Cch4AszEm7FbJm-409" value="构建流图streamGraph,异步执行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="921.5" y="509" width="187" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tADbp0Cch4AszEm7FbJm-412" value="&lt;div&gt;tableSink&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="1637" y="682.5" width="119" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tADbp0Cch4AszEm7FbJm-416" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="tADbp0Cch4AszEm7FbJm-414" target="tADbp0Cch4AszEm7FbJm-405">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tADbp0Cch4AszEm7FbJm-417" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="tADbp0Cch4AszEm7FbJm-414" target="tADbp0Cch4AszEm7FbJm-412">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tADbp0Cch4AszEm7FbJm-414" value="&lt;div&gt;&amp;nbsp;StreamExecSink.&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; translateToPlanInternal&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="1433" y="657" width="173" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
