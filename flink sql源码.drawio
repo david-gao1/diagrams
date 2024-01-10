@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T15:03:00.492Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="NacdjQj7P_hwmiLbJFG2" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-10T15:19:42.297Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="dCgnkEdyRT994pmtPHUt" version="22.1.17" type="github">
   <diagram name="第 1 页" id="nlLDegoZxrFvPFiNcK8O">
     <mxGraphModel dx="716" dy="620" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -106,14 +106,14 @@
         <mxCell id="tADbp0Cch4AszEm7FbJm-373" value="PlannerQueryOperation" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="1722" y="380" width="167" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tADbp0Cch4AszEm7FbJm-375" value="创建catalog实例，封装sql细节，&lt;br&gt;此时还未与connector交互" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="1530" y="464" width="192" height="41" as="geometry" />
+        <mxCell id="tADbp0Cch4AszEm7FbJm-375" value="创建catalog实例，封装sql内容细节，&lt;br&gt;遇到query、insert时提供catalog相关参数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="1508" y="464" width="236" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="tADbp0Cch4AszEm7FbJm-376" value="转换为关系表达式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="1748.5" y="422" width="114" height="26" as="geometry" />
+        <mxCell id="tADbp0Cch4AszEm7FbJm-376" value="1.转换为关系表达式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="1743.5" y="422" width="124" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="tADbp0Cch4AszEm7FbJm-379" value="&lt;span style=&quot;color: rgb(57, 60, 86); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;转换sink之前会先convertSqlquery&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="1560.9984615384615" y="294" width="115" height="36" as="geometry" />
+        <mxCell id="tADbp0Cch4AszEm7FbJm-379" value="&lt;span style=&quot;color: rgb(57, 60, 86); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1. 转换sink之前会先convertSqlquery&lt;br&gt;2. insert语句会通过spi机制找到connector实例，注册sink实例&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="1542" y="278.77" width="223" height="52.46" as="geometry" />
         </mxCell>
         <mxCell id="tADbp0Cch4AszEm7FbJm-381" value="insert into zzzzz_star01 &#xa;     select  t1.`id` as `qq` ,t2.`name` as `ww`   from tjy_test1_ss  t1 &#xa;     left  join   tjy_fortest1 FOR SYSTEM_TIME AS OF `t1`.`proc_time` t2  on t1.name=t2.name;" style="text;whiteSpace=wrap;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="1996.8461538461538" y="232.53846153846155" width="550" height="51" as="geometry" />
@@ -166,8 +166,8 @@
         <mxCell id="tADbp0Cch4AszEm7FbJm-397" value="生成物理执行计划" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="1209" y="635" width="114" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="tADbp0Cch4AszEm7FbJm-398" value="转换算子：source、算子等具体代码实现" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="1139" y="697" width="234" height="26" as="geometry" />
+        <mxCell id="tADbp0Cch4AszEm7FbJm-398" value="转换算子：source、算子等具体代码实现&lt;br&gt;Translates an ExecNodeGraph into a Transformation DAG." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="1091" y="690" width="331" height="41" as="geometry" />
         </mxCell>
         <mxCell id="tADbp0Cch4AszEm7FbJm-399" value="FlinkHepProgram—&amp;gt; planner.findBestExp" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="1426" y="513" width="230" height="40" as="geometry" />
