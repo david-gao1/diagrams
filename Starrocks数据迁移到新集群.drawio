@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T08:33:57.900Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Dr3CEjMn9MCVJ-PaE24b" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T08:43:39.393Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="TfWmRr1aMST5w5_nN0oZ" version="23.1.1" type="github">
   <diagram name="第 1 页" id="XI1z-NXLxx5ZMHNDC6Ft">
-    <mxGraphModel dx="835" dy="465" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="742" dy="413" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,22 +8,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="99d83jYmcaxAfN2YaDKl-1" value="Old Starrocks" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="122" y="134" width="120" height="60" as="geometry" />
+          <mxGeometry x="133" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="99d83jYmcaxAfN2YaDKl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="99d83jYmcaxAfN2YaDKl-2" target="99d83jYmcaxAfN2YaDKl-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="99d83jYmcaxAfN2YaDKl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="531" y="141" as="sourcePoint" />
+            <mxPoint x="443" y="141" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="99d83jYmcaxAfN2YaDKl-2" value="New Starrocks" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="498" y="136" width="120" height="60" as="geometry" />
+          <mxGeometry x="532" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="99d83jYmcaxAfN2YaDKl-3" value="minio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="306" y="315" width="120" height="60" as="geometry" />
+          <mxGeometry x="324" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="99d83jYmcaxAfN2YaDKl-6" value="1. 创建仓库，建立与minio的连接&lt;br&gt;2. 将数据快照备份到minio：&lt;br&gt;分为表、数据库级别" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="105" y="197" width="192" height="55" as="geometry" />
+        <mxCell id="99d83jYmcaxAfN2YaDKl-6" value="①. 创建仓库，建立与minio的连接&lt;br&gt;②. 将数据快照备份到minio：分为表、数据库级别" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="156" y="66" width="281" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="99d83jYmcaxAfN2YaDKl-7" value="3. 创建与旧集群创建相同的仓库快照，建立与minio&lt;br&gt;的连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="341" y="202" width="288" height="41" as="geometry" />
+        <mxCell id="99d83jYmcaxAfN2YaDKl-7" value="③. 创建与旧集群创建相同的仓库快照，建立与minio的连接，以便能够查看快照情况&lt;br&gt;④. restore：迁移整个表或库到集群" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="442" y="197" width="461" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="99d83jYmcaxAfN2YaDKl-8" value="①②" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="261" y="124" width="42" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="99d83jYmcaxAfN2YaDKl-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="161" as="sourcePoint" />
+            <mxPoint x="532" y="161" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="99d83jYmcaxAfN2YaDKl-11" value="③" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="119" width="30" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="99d83jYmcaxAfN2YaDKl-12" value="④" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="471" y="160" width="30" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
