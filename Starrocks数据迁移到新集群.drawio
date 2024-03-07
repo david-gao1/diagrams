@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T08:43:39.393Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="TfWmRr1aMST5w5_nN0oZ" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T08:43:57.552Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="SpIiz2rDfoA_8i_0YPmY" version="23.1.1" type="github">
   <diagram name="第 1 页" id="XI1z-NXLxx5ZMHNDC6Ft">
     <mxGraphModel dx="742" dy="413" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -22,11 +22,8 @@
         <mxCell id="99d83jYmcaxAfN2YaDKl-3" value="minio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="324" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="99d83jYmcaxAfN2YaDKl-6" value="①. 创建仓库，建立与minio的连接&lt;br&gt;②. 将数据快照备份到minio：分为表、数据库级别" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="156" y="66" width="281" height="41" as="geometry" />
-        </mxCell>
-        <mxCell id="99d83jYmcaxAfN2YaDKl-7" value="③. 创建与旧集群创建相同的仓库快照，建立与minio的连接，以便能够查看快照情况&lt;br&gt;④. restore：迁移整个表或库到集群" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="442" y="197" width="461" height="41" as="geometry" />
+        <mxCell id="99d83jYmcaxAfN2YaDKl-6" value="①. 创建仓库，建立与minio的连接&lt;br&gt;②. 将数据快照备份到minio：分为表、数据库级别&lt;br&gt;③. 创建与旧集群创建相同的仓库快照，建立与minio的连接，以便能够查看快照情况&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;④. restore：迁移整个表或库到集群" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="137" y="37" width="461" height="70" as="geometry" />
         </mxCell>
         <mxCell id="99d83jYmcaxAfN2YaDKl-8" value="①②" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="261" y="124" width="42" height="26" as="geometry" />
