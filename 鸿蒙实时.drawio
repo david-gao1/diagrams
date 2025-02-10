@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.2">
   <diagram name="第 1 页" id="mwwq0sC6s1pWPtMW4ISp">
-    <mxGraphModel dx="695" dy="1363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="5376" dy="1363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QfYTZWWHf_OFeftEPL7J-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;kafka&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="270" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QfYTZWWHf_OFeftEPL7J-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QfYTZWWHf_OFeftEPL7J-6" target="QfYTZWWHf_OFeftEPL7J-13">
           <mxGeometry relative="1" as="geometry" />
@@ -24,6 +24,21 @@
         </mxCell>
         <mxCell id="QfYTZWWHf_OFeftEPL7J-13" value="FlatMap" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QfYTZWWHf_OFeftEPL7J-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QfYTZWWHf_OFeftEPL7J-15" target="QfYTZWWHf_OFeftEPL7J-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfYTZWWHf_OFeftEPL7J-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QfYTZWWHf_OFeftEPL7J-15" target="QfYTZWWHf_OFeftEPL7J-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfYTZWWHf_OFeftEPL7J-15" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;flink env&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QfYTZWWHf_OFeftEPL7J-17" value="app接口广播数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="410" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QfYTZWWHf_OFeftEPL7J-20" value="source" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
